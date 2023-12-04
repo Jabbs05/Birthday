@@ -13,3 +13,13 @@ function showAlert() {
     head.innerText = "Happy Birthdayy 🥳🥳🎂🎂"
   }
 btnnn.addEventListener('click', showAlert)
+
+function salert(){
+    alert ("Wow I thought you knew najibah🙄");
+}
+btn.addEventListener('click', salert)
+
+function salertt(){
+    alert ("Are you an Imposter!!!");
+}
+btnn.addEventListener('click', salertt)
