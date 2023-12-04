@@ -1,0 +1,35 @@
+body{
+    background-color: brown;
+    color:white;
+    font-family: 'Slackey', sans-serif;
+
+}
+div{
+        display:flex;
+        flex-direction: column;
+        width:auto;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+}
+button{
+    padding:5px;
+    height: min-content;
+    width: fit-content;
+    background-color:brown;
+    border-width: 0px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+button:active{
+    background-color:#511515;
+}
+p{
+    display: none;
+}
+div.none{
+display: none;
+}
+p.show{
+    display:block;
+}
